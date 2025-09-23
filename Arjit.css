@@ -1,0 +1,50 @@
+/* Writing css for searchbar of artist Arjit */
+.right-content nav .search .searchresult{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid white; */
+    top: 35px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.right-content nav .search .searchresult::-webkit-scrollbar{
+    display: none;
+}
+
+.right-content nav .search .searchresult .card{
+    width: 100%;
+    min-height: 45px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(184, 184, 184, .1);
+    margin-bottom: 5px;
+    text-decoration: none;
+    display: none;
+}
+
+.right-content nav .search .searchresult .card img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.right-content nav .search .searchresult .card .content{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid wheat; */
+    padding: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.right-content nav .search .searchresult .card .content .subtitle{
+    font-size: 9px;
+    color: #a4a8b4;
+    font-weight: 500;
+}

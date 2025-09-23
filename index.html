@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeBeat.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="VibeBeat Icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="left-content">
+            <h1>PlayList</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><img class="bi" src="Images/music.png" >Playlist</h4>
+                <h4><span></span><img class="bi" src="Images/music.png" >Last Played</h4>
+                <h4><span></span><img class="bi" src="Images/music.png" >Recommened</h4>
+            </div>
+            <div class="songs" id="songs">
+                <!-- 1st Song Content -->
+                <li class="songItem">
+                    <span>01</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL <br>
+                        <div class="sub-title">
+                            Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+
+                <!-- 2nd Song Content -->
+                <li class="songItem">
+                    <span>02</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                           Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+
+                <!-- 3rd Song Content -->
+                   <li class="songItem">
+                    <span>03</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                            Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+
+                <!-- 4th Songs Content -->
+                   <li class="songItem">
+                    <span>04</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                           Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+
+                <!-- 5th song Content -->
+                   <li class="songItem">
+                    <span>05</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                            Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+
+                <!-- 6th Song Content -->
+                   <li class="songItem">
+                    <span>06</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                            Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+
+                <!-- 7th Song Content -->
+                  <li class="songItem">
+                    <span>07</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                            Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+
+                <!-- 8th Song Content -->
+                  <li class="songItem">
+                    <span>08</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                           Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                </li>
+
+                <!-- 9th Song Content -->
+                 <li class="songItem">
+                    <span>09</span>
+                    <img class="songImg" src="Images/Azul.jpeg" alt="">
+                    <h5>AZUL<br>
+                        <div class="sub-title">
+                           Guru Randhwa
+                        </div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                </li>
+            </div>
+        </div>
+
+
+        <!-- Right Content contains all songs and albums datails -->
+        <div class="right-content">
+            <nav>
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Songs">
+                    <div class="searchResult">
+                        <!-- <a href="" class="card">
+                            <img src="Images/Azul.jpg" alt="">
+                            <div class="content">
+                                AZUL
+                                <div class="subtitle">Guru Randhwa</div>
+                            </div>
+                        </a> -->
+
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="Images/Logo.png" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Latest Hits</h1>
+                <p>Now Enjoy The Music From Bollywood <br>Feel More Energetic and Excited</p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Follow+</button>
+                </div>
+            </div>
+
+            <!-- html for popular songs -->
+            <div class="popularSongs">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btnS">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="popSongs">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 2nd Song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 3rd Song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 4th song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 5th song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 6th song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 7th song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                    <!-- 8th song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+        
+                    <!-- 9th Song -->
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img class="songImg" src="Images/Azul.jpeg" alt="">
+                            <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                        </div>
+                    <h5>AZUL<br>
+                        <div class="sub-title">Guru Randhwa</div>
+                    </h5>
+                    </li>
+
+                <!-- If you want to add more songs then star add from here -->
+                </div>
+            </div>
+            <div class="popularArtist">
+                <div class="h4">
+                    <h4>Popular Artist</h4>
+                    <div class="btnS">
+                        <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="artistItem">
+                    <li>
+                        <a href="Arjit.html"><img src="Images/Arjit.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <img src="Images/Aslam.jpg" alt="">
+                    </li>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Masterplay cotains all buttons progressbar volume controls -->
+        <div class="masterplay">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="ImagesMaster/10.jpg" id="posterMasterPlay">
+            <h5 id="title">
+                
+                <div class="sub-title"></div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download="" id="downloadMusic"><i class="bi bi-cloud-arrow-down-fill" ></i></a>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot" id="dot"></div>
+            </div>
+            <span id="currentEnd">0.30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="valBar" id="volBar"></div>
+                <div class="dot" id="volDot"></div>
+            </div>
+        </div>
+    </header>
+<script src="script.js"></script>
+<script src="arjit.js"></script>
+</body>
+</html>
